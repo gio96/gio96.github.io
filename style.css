@@ -1,0 +1,86 @@
+/*
+primario: #2196f3
+light:#bbdefb
+dark:#1976d2
+acento:#00bfa5
+
+https://material.io/guidelines/style/color.html#color-color-palette
+https://fonts.google.com/ 
+*/
+
+@import url('<link href="https://fonts.googleapis.com/css?family=Inknut+Antiqua|Lato" rel="stylesheet">');
+
+nav{
+	background: transparent;;
+	position: absolute; /*Pongame hay sin importar quien este*/
+	box-shadow: none; /*quitarle sombra al nav*/
+
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+.color-primario{
+	color:#2196f3;
+}
+
+.back-color-primario{
+	background-color:#2196f3;
+}
+
+.color-light{
+	color:#bbdefb;
+}
+
+.color-dark{
+	color:#1976d2;
+}
+
+.back-color-dark{
+	background-color:#1976d2;
+}
+
+.color-accent{
+	color:#00bfa5;
+}
+
+.letra-titulo
+{
+	font-family: 'Inknut Antiqua', serif;
+}
+
+/*home*/
+header{
+	width: 100%;
+	height: 100vh;/*Va a ocupar toda la pantalla*/
+	background: linear-gradient(left,#bbdefb,#2196f3);/*degradado*/
+	background: #2196f3,; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left,#bbdefb,#2196f3); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(left,#bbdefb,#2196f3); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(left,#bbdefb,#2196f3); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(left,#bbdefb,#2196f3); /* Standard syntax */
+
+    display: flex;
+    justify-content: center;  /*ubicacion vertical*/
+    align-items: center; /*ubicacion horizontal*/
+    flex-direction: column; /*a forma de columna los elemetnso*/
+}
+
+.no-margin
+{
+	margin:0 !important;
+}
+.text-bold
+{
+	font-weight: bold;
+}
+
+.foto{
+	padding: 1em 1em 3em 3em !important;
+	box-shadow: 2px 2px 4px 2px gray;
+	transform: rotate(-2deg);
+}
+
+.seccion{
+	padding: 3em 2em;
+}
